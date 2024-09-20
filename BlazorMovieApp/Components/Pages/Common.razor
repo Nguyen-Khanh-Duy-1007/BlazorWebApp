@@ -1,0 +1,45 @@
+﻿@page "/common";
+@rendermode InteractiveServer
+
+<PageTitle>Common</PageTitle>
+
+<h3>Common</h3>
+
+<!-- Tabs Navigation -->
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link @(activeTab == "study" ? "active" : "")" @onclick='() => SelectTab("study")'>Study</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link @(activeTab == "link1" ? "active" : "")" @onclick='() => SelectTab("link1")'>Link 1</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link @(activeTab == "link2" ? "active" : "")" @onclick='() => SelectTab("link2")'>Link 2</a>
+    </li>
+</ul>
+
+<!-- Tabs Content -->
+<div class="tab-content mt-3">
+    @if (activeTab == "study")
+    {
+        <Study/>
+    }
+    else if (activeTab == "link1")
+    {
+        <Counter/>
+    }
+    else if (activeTab == "link2")
+    {
+        <Counter/>
+    }
+</div>
+
+@code {
+    private string activeTab = "study"; // Default active tab
+
+    // Function to handle tab switching
+    private void SelectTab(string tabName)
+    {
+        activeTab = tabName;
+    }
+}

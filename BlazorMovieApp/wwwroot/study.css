@@ -1,0 +1,55 @@
+﻿.label {
+    background-color: #800000;
+    color: white;
+    width: 120px;
+    text-align: center;
+    padding: 10px 3px 6px 3px !important;
+}
+
+.header {
+    background-color: #800000;
+    color: white !important;
+    border: 1px solid white;
+    text-align: center !important;
+    padding: 0px !important;
+    line-height: unset !important;
+}
+
+.body {
+    border: 1px solid #800000 !important;
+}
+
+.button {
+    width: 90px !important;
+}
+
+.grid {
+    max-width: 120vh;
+    min-width: 100vh;
+}
+
+.search {
+    margin-bottom: 30px;
+    min-width: 120vh;
+}
+
+.input {
+    width: 80px !important;
+    padding: 6px 3px 6px 3px !important;
+    min-height: 0px !important;
+}
+
+.select {
+    height: 30px !important;
+    padding: 6px 3px 6px 3px !important;
+}
+
+input.mud-input-root-outlined {
+    padding: 6px 3px 6px 3px !important;
+}
+
+.mud-input > input.mud-input-root-outlined, div.mud-input-slot.mud-input-root-outlined {
+    padding: unset;
+    height: 30px !important;
+    width: 80px !important;
+}
