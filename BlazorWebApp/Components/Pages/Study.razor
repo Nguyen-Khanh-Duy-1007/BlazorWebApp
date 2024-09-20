@@ -1,0 +1,127 @@
+﻿@page "/common/1"
+@inject IDbContextFactory<BlazorWebApp.Data.MovieDbContext> DbFactory;
+@rendermode InteractiveServer
+
+<div style="margin-bottom: 30px;">
+    <MudText Typo="Typo.h6" Class="px-4">Study</MudText>
+</div>
+
+<div>
+    <MudGrid>
+        <MudField>
+            <div style="margin-bottom: 10px">
+                <div style="display:inline-flex; border:1px solid #800000;">
+                    <MudText Class="label">コーナー</MudText>
+                    <MudSelect @bind-Value="selectedValue" Placeholder="Please Select" CloseIcon="@Icons.Material.Filled.Flag" AdornmentColor="Color.Tertiary"
+                               Variant="Variant.Outlined" Class="select">
+                        @foreach (var state in _states)
+                        {
+                            <MudSelectItem Value="state">@state</MudSelectItem>
+                        }
+                    </MudSelect>
+                </div>
+            </div>
+            <div class="search">
+                <div style="display:inline-flex; border:1px solid #800000;">
+                    <MudText Class="label">落札日</MudText>
+                    <MudTextField @bind-Value="TextValue" Variant="Variant.Outlined" Class="input" Style="height: 30px !important;"></MudTextField>
+
+                    <MudText Class="label">出品番号</MudText>
+                    <MudTextField @bind-Value="TextValue" Variant="Variant.Outlined" Class="input" Style="height: 30px !important;"></MudTextField>
+
+                    <MudText Class="label">出品店会員番号</MudText>
+                    <MudTextField @bind-Value="TextValue" Variant="Variant.Outlined" Class="input" Style="height: 30px !important;"></MudTextField>
+
+                    <MudText Class="label">落札店会員番号</MudText>
+                    <MudTextField @bind-Value="TextValue" Variant="Variant.Outlined" Class="input" Style="height: 30px !important;"></MudTextField>
+                </div>
+                <MudButton Variant="Variant.Outlined" Class="btn button">検索</MudButton>
+                <MudButton Variant="Variant.Outlined" Class="btn button">クリア</MudButton>
+            </div>
+            <div>
+                <MudTable @ref="_movieTb" T="Movie" Items="@movies" CustomHeader="@true" Hover="true" LoadingProgressColor="Color.Info" Class="grid">
+                    <HeaderContent>
+                        <MudTHeadRow>
+                            <MudTh Class="header" Style="width:10%" rowspan="2">出品番号 <br />会場名</MudTh>
+                            <MudTh Class="header" Style="width:15%" rowspan="2">車名 <br /> グレード</MudTh>
+                            <MudTh Class="header" Style="width:16%" colspan="1">落札店番号 <br /> 落札店名</MudTh>
+                            <MudTh Class="header" Style="width:7%" rowspan="2">陸送料金<br /> AS <br /> ビロ</MudTh>
+                            <MudTh Class="header" Style="width:7%" rowspan="2">請求金額</MudTh>
+                            <MudTh Class="header" Style="width:7%" colspan="1">落札日</MudTh>
+                            <MudTh Class="header" Style="width:7%" rowspan="2">輸送<br />区分</MudTh>
+                            <MudTh Class="header" Style="width:2%" rowspan="2">依<br />頼<br />応<br />答</MudTh>
+                            <MudTh Class="header" Style="width:2%" colspan="1">受注<br />Err</MudTh>
+                            <MudTh Class="header" Style="width:2%" rowspan="2">請<br />求</MudTh>
+                            <MudTh Class="header" Style="width:15%" rowspan="2">備考</MudTh>
+                            <MudTh Class="header" Style="width:10%" colspan="2">営業担当</MudTh>
+                        </MudTHeadRow>
+                        <MudTHeadRow>
+                            <MudTh Class="header">出品店番号 <br /> 出品店名 <br /> 出品店名電話番号</MudTh>
+                            <MudTh Class="header">受注番号</MudTh>
+                            <MudTh Class="header">応答<br />Err</MudTh>
+                            <MudTh Class="header">陸送担当</MudTh>
+                        </MudTHeadRow>
+                    </HeaderContent>
+                    <RowTemplate>
+                        <MudTd Class="body">@context.Genre <br /> @context.Price </MudTd>
+                        <MudTd Class="body">@context.Genre <br /> @context.Price</MudTd>
+                        <td class="mud-table-cell body" scope="row" style="padding:0 !important;">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td data-label="ParamName" class="mud-table-cell">test</td>
+                                </tr>
+                            </table>
+                            <table style="width: 100%;">
+                                <tr style="border-top: 1px solid #800000">
+                                    <td data-label="ParamName" class="mud-table-cell">test</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <MudTd Class="body">text</MudTd>
+                        <MudTd Class="body">text</MudTd>
+                        <td class="mud-table-cell body" scope="row" style="padding:0 !important;">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td data-label="ParamName" class="mud-table-cell">test</td>
+                                </tr>
+                            </table>
+                            <table style="width: 100%;">
+                                <tr style="border-top: 1px solid #800000">
+                                    <td data-label="ParamName" class="mud-table-cell">test</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <MudTd Class="body">text</MudTd>
+                        <MudTd Class="body">text</MudTd>
+                        <td class="mud-table-cell body" scope="row" style="padding:0 !important;">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td data-label="ParamName" class="mud-table-cell">test</td>
+                                </tr>
+                            </table>
+                            <table style="width: 100%;">
+                                <tr style="border-top: 1px solid #800000">
+                                    <td data-label="ParamName" class="mud-table-cell">test</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <MudTd Class="body">text</MudTd>
+                        <MudTd Class="body">text</MudTd>
+                        <td class="mud-table-cell body" scope="row" style="padding:0 !important;">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td data-label="ParamName" class="mud-table-cell">test</td>
+                                </tr>
+                            </table>
+                            <table style="width: 100%;">
+                                <tr style="border-top: 1px solid #800000">
+                                    <td data-label="ParamName" class="mud-table-cell">test</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </RowTemplate>
+                </MudTable>
+            </div>
+        </MudField>
+    </MudGrid>
+</div>

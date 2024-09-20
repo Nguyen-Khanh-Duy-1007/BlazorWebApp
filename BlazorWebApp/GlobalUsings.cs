@@ -1,0 +1,13 @@
+﻿global using System.Diagnostics;
+global using System.ComponentModel.DataAnnotations;
+global using MudBlazor;
+global using MudBlazor.Services;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Migrations;
+global using Microsoft.EntityFrameworkCore.Infrastructure;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using BlazorWebApp.Components;
+global using BlazorWebApp.Data;
+global using BlazorWebApp.Models;
+global using BlazorWebApp.DataContext;

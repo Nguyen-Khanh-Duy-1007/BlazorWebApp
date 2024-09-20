@@ -1,0 +1,38 @@
+﻿@page "/movies"
+@rendermode InteractiveServer
+@inject IDbContextFactory<BlazorWebApp.Data.MovieDbContext> DbFactory;
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<MudTable @ref="_movieTb" T="Movie" Items="@movies" Hover="true" MultiSelection="true" Loading="@_loading" LoadingProgressColor="Color.Info"
+          RowClass="cursor-pointer" RowClassFunc="SelectedRowClassFunc">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Create New</MudText>
+        <MudSpacer/>
+        <MudTextField @bind-Value="searchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Title</MudTh>
+        <MudTh>Release Date</MudTh>
+        <MudTh>Genre</MudTh>
+        <MudTh>Price</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Title">@context.Title</MudTd>
+        <MudTd DataLabel="Release Date">@context.ReleaseDate?.ToString("dd/MM/yyyy")</MudTd>
+        <MudTd DataLabel="Genre">@context.Genre</MudTd>
+        <MudTd DataLabel="Price">@context.Price</MudTd>
+    </RowTemplate>
+@*     <PagerContent>
+        <MudTablePager PageSizeOptions="new int[] { 1, 3, 5, 7 }"/>
+    </PagerContent>
+    <FooterContent>
+        <MudTd colspan="5"></MudTd>
+    </FooterContent> *@
+</MudTable>
+
+<MudSwitch @bind-Value="_loading" Color="Color.Primary">Show Loading</MudSwitch>
+<MudSwitch @bind-Value="_selectOnRowClick" Color="Color.Primary">Select on row click</MudSwitch>
+<MudSwitch @bind-Value="_selectionChangeable" Color="Color.Primary">Selection is changeable</MudSwitch>
