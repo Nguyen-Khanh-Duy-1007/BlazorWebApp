@@ -10266,11 +10266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\duy-nk\\Docs\\BlazorWebApp\\BlazorWebApp\\BlazorWebApp.csproj",
+      "projectUniqueName": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\BlazorWebApp.csproj",
       "projectName": "BlazorWebApp",
-      "projectPath": "D:\\duy-nk\\Docs\\BlazorWebApp\\BlazorWebApp\\BlazorWebApp.csproj",
+      "projectPath": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\BlazorWebApp.csproj",
       "packagesPath": "C:\\Users\\asvn\\.nuget\\packages\\",
-      "outputPath": "D:\\duy-nk\\Docs\\BlazorWebApp\\BlazorWebApp\\obj\\",
+      "outputPath": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

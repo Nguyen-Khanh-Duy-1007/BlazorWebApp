@@ -20,75 +20,75 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorWebApp
 build_property.RootNamespace = BlazorWebApp
-build_property.ProjectDir = D:\duy-nk\Docs\BlazorWebApp\BlazorWebApp\
+build_property.ProjectDir = D:\duy-nk\Docs\Blazor\BlazorWebApp\BlazorWebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\duy-nk\Docs\BlazorWebApp\BlazorWebApp
+build_property.MSBuildProjectDirectory = D:\duy-nk\Docs\Blazor\BlazorWebApp\BlazorWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/App.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/Common.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/Common.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21tb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/Counter.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/Error.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/Home.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/MoviePages/Create.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/MoviePages/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNb3ZpZVBhZ2VzXENyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/MoviePages/Delete.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/MoviePages/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNb3ZpZVBhZ2VzXERlbGV0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/MoviePages/Details.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/MoviePages/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNb3ZpZVBhZ2VzXERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/MoviePages/Edit.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/MoviePages/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNb3ZpZVBhZ2VzXEVkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/MoviePages/Index.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/MoviePages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNb3ZpZVBhZ2VzXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/Study.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/Study.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdHVkeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Pages/Weather.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Routes.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/_Imports.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Layout/MainLayout.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-r215xwi2mi
 
-[D:/duy-nk/Docs/BlazorWebApp/BlazorWebApp/Components/Layout/NavMenu.razor]
+[D:/duy-nk/Docs/Blazor/BlazorWebApp/BlazorWebApp/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ajqwrrfjf8

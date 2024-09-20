@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PsgQWcybXOs=",
+  "dgSpecHash": "av2lRr7/mPk=",
   "success": true,
-  "projectFilePath": "D:\\duy-nk\\Docs\\BlazorWebApp\\BlazorWebApp\\BlazorWebApp.csproj",
+  "projectFilePath": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\BlazorWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asvn\\.nuget\\packages\\auralizeblazor\\1.1.3\\auralizeblazor.1.1.3.nupkg.sha512",
     "C:\\Users\\asvn\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

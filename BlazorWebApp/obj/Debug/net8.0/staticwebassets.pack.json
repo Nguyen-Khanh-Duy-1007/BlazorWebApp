@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "D:\\duy-nk\\Docs\\BlazorWebApp\\BlazorWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorWebApp.bundle.scp.css",
+      "Id": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorWebApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorWebApp.bundle.scp.css"
     },
     {
-      "Id": "D:\\duy-nk\\Docs\\BlazorWebApp\\BlazorWebApp\\wwwroot\\app.css",
+      "Id": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "D:\\duy-nk\\Docs\\BlazorWebApp\\BlazorWebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\duy-nk\\Docs\\BlazorWebApp\\BlazorWebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\duy-nk\\Docs\\BlazorWebApp\\BlazorWebApp\\wwwroot\\favicon.png",
+      "Id": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\duy-nk\\Docs\\BlazorWebApp\\BlazorWebApp\\wwwroot\\study.css",
+      "Id": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\wwwroot\\study.css",
       "PackagePath": "staticwebassets\\study.css"
     },
     {
