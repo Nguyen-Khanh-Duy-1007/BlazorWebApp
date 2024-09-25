@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "av2lRr7/mPk=",
+  "dgSpecHash": "/0+781vSK3E=",
   "success": true,
-  "projectFilePath": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\BlazorWebApp.csproj",
+  "projectFilePath": "D:\\duy-nk\\Docs\\Blazor\\BlazorWebApp\\BlazorWebApp\\BlazorWebApp.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asvn\\.nuget\\packages\\auralizeblazor\\1.1.3\\auralizeblazor.1.1.3.nupkg.sha512",
     "C:\\Users\\asvn\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
@@ -67,6 +67,8 @@
     "C:\\Users\\asvn\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\asvn\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
     "C:\\Users\\asvn\\.nuget\\packages\\markdig\\0.37.0\\markdig.0.37.0.nupkg.sha512",
+    "C:\\Users\\asvn\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\asvn\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\asvn\\.nuget\\packages\\metadataextractor\\2.8.1\\metadataextractor.2.8.1.nupkg.sha512",
     "C:\\Users\\asvn\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.8\\microsoft.aspnetcore.authorization.8.0.8.nupkg.sha512",
     "C:\\Users\\asvn\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.8\\microsoft.aspnetcore.components.8.0.8.nupkg.sha512",

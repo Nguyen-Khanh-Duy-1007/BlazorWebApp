@@ -1,0 +1,7 @@
+D:\duy-nk\Docs\Blazor\BlazorWebApp\BlazorWebApp\obj\Debug\net8.0\BlazorWebApp.WebUI.csproj.AssemblyReference.cache
+D:\duy-nk\Docs\Blazor\BlazorWebApp\BlazorWebApp\obj\Debug\net8.0\BlazorWebApp.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\duy-nk\Docs\Blazor\BlazorWebApp\BlazorWebApp\obj\Debug\net8.0\BlazorWebApp.WebUI.AssemblyInfoInputs.cache
+D:\duy-nk\Docs\Blazor\BlazorWebApp\BlazorWebApp\obj\Debug\net8.0\BlazorWebApp.WebUI.AssemblyInfo.cs
+D:\duy-nk\Docs\Blazor\BlazorWebApp\BlazorWebApp\obj\Debug\net8.0\BlazorWebApp.WebUI.csproj.CoreCompileInputs.cache
+D:\duy-nk\Docs\Blazor\BlazorWebApp\BlazorWebApp\obj\Debug\net8.0\BlazorWebApp.WebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\duy-nk\Docs\Blazor\BlazorWebApp\BlazorWebApp\obj\Debug\net8.0\BlazorWebApp.WebUI.sourcelink.json
